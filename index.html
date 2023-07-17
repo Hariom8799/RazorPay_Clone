@@ -7,9 +7,10 @@
     <script src="https://kit.fontawesome.com/10dd969d80.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
-<body>
+<body class="overflow-x-hidden">
+    <!-- ----------------------------NavBar-------------------------------- -->
     <nav class="bg-deepBlue ">
-        <div class="flex justify-evenly items-center w-[1080px] mx-auto relative">
+        <div class="flex justify-between items-center w-[1080px] mx-auto relative">
             <a class="cursor-pointer py-7 pr-7" href="/"><img src="./Images/assets/logo.svg" alt="logo" width="125px" ></a>
             <ul class="text-white flex gap-6">
                 <li class="relative cursor-pointer hover:text-lightBlue py-7 transition-all duration-200 font-mullish   group ">
@@ -40,10 +41,34 @@
             <img src="./Images/assets/india-flag.svg" alt="" width="28px">
             <button class="text-white py-3 px-5 border-lightBlue border rounded-sm text-sm font-bold">Log in</button>
             <button class="py-3 px-4 text-sm font-bold rounded-sm bg-white text-lightBlue300 hover:text-lightBlue500 transition-all duration-200">Sign Up <span class="ml-2"><i class="fa-solid fa-arrow-right"></i></span>
-            </button>
-            
+            </button>    
         </div>
         </div>
     </nav>
+
+    <!-- --------------------------------Hero Section-------------------------- -->
+    <section class="relative bg-deepBlue">
+        <!-- center div -->
+        <div class="flex justify-between items-center w-10/12 max-w-[1080px]  mx-auto">
+            <!-- left Part -->
+            <div class="space-y-8" >
+                <h1 class="text-white font-bold text-[40px] font-mullish leading-[1.2]">
+                    Power your finance,<br>
+                    grow your business
+                </h1>
+                <div class="h-1 w-6 bg-greenLight"></div>
+                <p class="text-white opacity-70 leading-7 font-mullish text-[18px]">Accept payments from customers. Automate payouts to vendors & employees. Never run out of working capital.</p>
+                <button class="text-white bg-lightBlue font-bold font-mullish rounded-md hover:bg-lightBlue500 transition-all duration-200 py-[14px] px-[18px]">Sign Up Now</button>
+            </div>
+            <!-- right part -->
+            <img class="w-full max-w-[680px]" src="./Images/assets/hero-illustration.jpg" alt="">
+        </div>
+        
+        <!-- Triangular part -->
+        <div class="absolute left-0 right-0 w-[103%]">
+            <img class="w-full object-fill" src="./Images/assets/hero-shape.svg" alt="">
+        </div>
+            
+    </section>
 </body>
 </html>
